@@ -72,7 +72,7 @@
            requestUriIgnorePattern=".*\.(ico|png|gif|jpg|css|js)$"
 		   copyCollectionsForSerialization="true"
            transcoderFactoryClass="de.javakaffee.web.msm.serializer.kryo.KryoTranscoderFactory"
-    />
+	/>
 	<!-- XStream -->
 	<!--
 	<Manager className="de.javakaffee.web.msm.MemcachedBackupSessionManager"
