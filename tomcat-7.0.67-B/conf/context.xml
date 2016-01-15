@@ -60,7 +60,7 @@
            lockingMode="auto"
            requestUriIgnorePattern=".*\.(ico|png|gif|jpg|css|js)$"
            transcoderFactoryClass="de.javakaffee.web.msm.JavaSerializationTranscoderFactory"
-    />
+	/>
 	-->
 	<!-- Kryo -->
 	<Manager className="de.javakaffee.web.msm.MemcachedBackupSessionManager"
@@ -83,7 +83,7 @@
            lockingMode="auto"
            requestUriIgnorePattern=".*\.(ico|png|gif|jpg|css|js)$"
            transcoderFactoryClass="de.javakaffee.web.msm.serializer.xstream.XStreamTranscoderFactory"
-    />
+	/>
 	-->
 	<!-- flexjson -->
 	<!--
@@ -95,7 +95,7 @@
            lockingMode="auto"
            requestUriIgnorePattern=".*\.(ico|png|gif|jpg|css|js)$"
            transcoderFactoryClass="de.javakaffee.web.msm.serializer.json.JSONTranscoderFactory"
-    />
+	/>
 	-->
 	<!-- javolution -->
 	<!--
@@ -108,6 +108,6 @@
            requestUriIgnorePattern=".*\.(ico|png|gif|jpg|css|js)$"
 		   copyCollectionsForSerialization="true"
            transcoderFactoryClass="de.javakaffee.web.msm.serializer.javolution.JavolutionTranscoderFactory"
-    />
+	/>
 	-->
 </Context>
